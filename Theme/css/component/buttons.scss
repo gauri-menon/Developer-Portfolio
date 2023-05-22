@@ -1,0 +1,15 @@
+.btn {
+    background-color: var(--transparent);
+    color: var(--white);
+    border: none;
+    border-bottom: 1px solid var(--turquoise);
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+.btn:hover, .btn:active {
+    color: var(--turquoise);
+    background-color: var(--transparent);
+    border: none;
+    border-bottom: 1px solid var(--turquoise);
+}
